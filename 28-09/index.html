@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Player</title>
+</head>
+
+<body>
+    <div class="tituloAlbum">
+        <h1>Faith in the Future</h1>
+    </div>
+    <div class="imagem">
+        <img src="./images/cover.jpg" alt="Cover" width="700px" height="700px">
+    </div>
+    <div class="nomeMusica">
+        <h4>Chicago - Louis Tomlison</h4>
+    </div>
+    <div id="button-container">
+        <button onclick="pause()"><i class="bi bi-pause-circle-fill x2"></i></button>
+        <button onclick="tocar()"><i class="bi bi-play-circle-fill 2x"></i></button>
+        <button onclick="stop()"><i class="bi bi-stop-circle-fill 2x"></i></button>
+    </div>
+    
+    <audio id="som" src="./songs/holding-on-to-heartache.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
